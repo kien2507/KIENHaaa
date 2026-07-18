@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="image">
+        Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
+    </div>
+
+    <div class="gallery">
+        <img class="preview" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500" alt="Phong cảnh núi non hùng vĩ" onmouseover="upDate(this)" onmouseout="undo()">
+        <img class="preview" src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500" alt="Rừng cây trong sương sớm" onmouseover="upDate(this)" onmouseout="undo()">
+        <img class="preview" src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=500" alt="Con đường mòn xuyên qua rừng" onmouseover="upDate(this)" onmouseout="undo()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
